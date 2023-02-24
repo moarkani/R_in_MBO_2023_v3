@@ -23,7 +23,7 @@ The materials are adjusted depending on schedules. Please select your group:
 - [Day2_Assignment](Assignment_Day2)
 - [Day2_Assignment_Asnwered](Answered_Assignment_Day2)
 - [Day3_Test](Day3_Test)
-- [Day3_Test_Answered_20230224](Test_Answered_Day3)
+- [Day3_Test_Answered_20230224](Day3_Test_Answered_20230224)
 
 
 <br/>
