@@ -190,7 +190,7 @@ tRNA
 
 Different Solutions:
 
-```{r, results='hide' ,class.source = 'fold-hide'}
+```{r, results='hide' ,class.source = 'fold-hide', warning=FALSE}
 
 StartCodon <- str_replace_all(tRNA, "AUG", "met")
 StartCodon

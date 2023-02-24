@@ -519,10 +519,9 @@ name.</strong></li>
 <p>Different Solutions:</p>
 <pre class="r fold-hide"><code>StartCodon &lt;- str_replace_all(tRNA, &quot;AUG&quot;, &quot;met&quot;)
 StartCodon
-str_view_all(StartCodon, &quot;met&quot;)</code></pre>
-<pre><code>## Warning: `str_view()` was deprecated in stringr 1.5.0.
-## ℹ Please use `str_view_all()` instead.</code></pre>
-<pre class="r fold-hide"><code>StopCodon &lt;- str_replace_all(tRNA, &quot;UAG&quot;, &quot;STOP&quot;)
+str_view_all(StartCodon, &quot;met&quot;)
+
+StopCodon &lt;- str_replace_all(tRNA, &quot;UAG&quot;, &quot;STOP&quot;)
 StopCodon
 str_view_all(StopCodon, &quot;STOP&quot;)</code></pre>
 <p>Or</p>
