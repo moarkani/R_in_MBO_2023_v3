@@ -11,8 +11,13 @@ Preparation: Please install `tidyverse` and `stringr` library before start.
 
 ```{r, results='hide',include=FALSE, class.source = "fold-show"}
 #install.packages("tidyverse")
+# install.packages("htmltools")
+# install.packages("htmlwidgets")
+library(htmltools)
+library(htmlwidgets)
 library(tidyverse)
 library(stringr)
+
 ```
 
 The DNA or RNA string for each question are also available in a separate text file in Brightspace entitled **Day3_Strings_Test.**
