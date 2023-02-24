@@ -1,0 +1,6 @@
+"0","ggplot(pulse) +"
+"0","  aes(x = weight, y = height, color = exercise, shape = gender) +"
+"0","  geom_point(size = 3, alpha = 0.8) +"
+"0","  scale_y_continuous(name = ""Height [cm]"", "
+"0","                     limits = c(100, 200), "
+"0","                     breaks = c(100, 130, 135, 149, 180, 200))"

@@ -1,0 +1,16 @@
+"0","ggplot(pulse %>% drop_na()) +
+  aes(x = pulse1 , y = pulse2, label = name, color = pulse[pulse$ran == ""ran""]) +
+  geom_text(size = 3, angle = -45)+
+  geom_point()
+"
+"1","[1m[33mError[39m in `geom_text()`:[22m
+[38;5;238m[33m![38;5;238m Problem while computing aesthetics.
+[36mℹ[38;5;238m Error occurred in the 1st layer.[39m
+[1mCaused by error in `pulse[pulse$ran == ""ran""]`:[22m
+[33m![39m Can't subset columns with `pulse$ran == ""ran""`.
+[31m✖[39m Logical subscript `pulse$ran == ""ran""` must be size 1 or 13, not 110.
+Backtrace:
+[90m  1. [39m[1mbase[22m (local) `<fn>`(x)
+[90m 26. [39m[1mvctrs[22m (local) `<fn>`()
+[90m 27. [39mvctrs:::stop_indicator_size(...)
+"

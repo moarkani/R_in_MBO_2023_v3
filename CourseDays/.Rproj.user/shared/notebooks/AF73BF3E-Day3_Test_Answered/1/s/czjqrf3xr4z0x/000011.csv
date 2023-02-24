@@ -1,0 +1,8 @@
+"0",""
+"0","StopCodon <- str_replace_all(tRNA, ""UAG"", ""STOP"")"
+"0","StopCodon"
+"1","[1]"
+"1"," ""UUGAAUGAAGGAUCCUACGACUACGUCCAAGUGUACGACUCUAAUAUAUCGAUCGAUCGACUGAUCGAUCUCUACCSTOP"""
+"1","
+"
+"0","str_view_all(StopCodon, ""STOP"")"

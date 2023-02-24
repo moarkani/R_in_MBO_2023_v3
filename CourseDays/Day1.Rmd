@@ -1,0 +1,27 @@
+---
+title: "Day1"
+author: "M.Arkani"
+date: "2023-01-18"
+output: html_document
+---
+
+```{r}
+library(tidyverse)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

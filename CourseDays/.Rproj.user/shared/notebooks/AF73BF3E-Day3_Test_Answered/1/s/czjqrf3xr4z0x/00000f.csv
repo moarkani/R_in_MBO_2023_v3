@@ -1,0 +1,7 @@
+"0","StartCodon <- str_replace_all(tRNA, ""AUG"", ""met"")"
+"0","StartCodon"
+"1","[1]"
+"1"," ""UUGAmetAAGGAUCCUACGACUACGUCCAAGUGUACGACUCUAAUAUAUCGAUCGAUCGACUGAUCGAUCUCUACCUAG"""
+"1","
+"
+"0","str_view_all(StartCodon, ""met"")"

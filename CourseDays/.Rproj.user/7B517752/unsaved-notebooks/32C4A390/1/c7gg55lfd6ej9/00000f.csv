@@ -1,0 +1,4 @@
+"0","diamonds %>% "
+"0","  filter(carat < 2.5, cut == (c(""Good"", ""Very Good""))) %>% "
+"0","  arrange(desc(price)) %>% "
+"0","  head(5)"
