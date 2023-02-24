@@ -1,0 +1,6 @@
+"0","Stop_Start_codon <- str_replace_all(StartCodon, ""UAG"", ""stop"")"
+"0","Stop_Start_codon"
+"1","[1]"
+"1"," ""UUGAmetAAGGAUCCUACGACUACGUCCAAGUGUACGACUCUAAUAUAUCGAUCGAUCGACUGAUCGAUCUCUACCstop"""
+"1","
+"
